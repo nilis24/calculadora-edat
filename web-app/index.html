@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
     <title>CALCULADORA D'EDAT</title>
 </head>
 <body>
-    <h1>CALCULADORA D'EDAT</h1>
-    <br>
-    <table>
-        <th>DATA DE NAIXEMENT</th>
-        <tr>
-            <td>
-                <p>Introdueix la teva data de naixement:</p>
-                <form>
-                    <input type="date" name="data naixement" id="DataNaixement">
-                    <br>
-                    <br>
-                    <input type="button" value="Calcular">
-                    <input type="reset">
-                </form>
-            </td>
-        </tr>
-    </table>
+    <div class="padre">
+        <div id="particles-js"></div>
+        <script type="text/javascript" src="particles.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+        <div class="hijo">
+            <h1>CALCULADORA D'EDAT</h1>
+            <table>
+                <th>DATA DE NAIXEMENT</th>
+                <tr>
+                    <td>
+                        <p>Introdueix la teva data de naixement:</p>
+                        <form>
+                            <input type="date" name="data naixement" id="DataNaixement">
+                            <br>
+                            <br>
+                            <input type="button" value="Calcular">
+                            <input type="reset">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </body>
 </html>
